@@ -1,0 +1,4 @@
+To access Github from the Linux terminal:
+
+1) Locate your Github username
+2) Locate the URL of the repository
