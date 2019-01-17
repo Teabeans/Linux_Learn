@@ -1,4 +1,19 @@
 To access Github from the Linux terminal:
 
 1) Locate your Github username
-2) Locate the URL of the repository
+
+ie. 'teabeans'
+
+2) Locate the URL of the repository (from the repository, click on the green 'Clone or Download' button and copy the URL provided)
+
+ie. https://github.com/Teabeans/Linux_Learn.git
+
+3) From the Linux shell, enter the command
+
+$ git clone --bare <URL>
+
+ie. $ git clone --bare https://github.com/Teabeans/Linux_Learn.git
+
+This <does what?>
+
+4) 
