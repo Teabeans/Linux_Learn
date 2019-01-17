@@ -1,0 +1,6 @@
+Note: The command prompt must be run as an administrator
+
+Step 1: Enable the subsystem within windows (TODO: Paraphrased, rewrite)
+Step 2: Download Ubuntu from the Windows store (TODO: Paraphrased, rewrite)
+Step 3: Run Ubuntu, perform first-time configuration (TODO: Paraphrased, rewrite)
+Step 4: Update/Upgrade (TODO: Paraphrased, rewrite)
