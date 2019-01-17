@@ -1,0 +1,5 @@
+Use the commands:
+
+$ hostname -l
+$ ifconfig
+$ ip
