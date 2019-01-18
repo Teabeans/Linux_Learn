@@ -1,3 +1,43 @@
 STEP 1 - Download the OpenSSL library into Linux
 
 $ sudo apt-get install libssl-dev
+
+teabean@LAPTOP-KHTL51SP:~$ sudo apt-get install libssl-dev
+[sudo] password for teabean:
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following package was automatically installed and is no longer required:
+  libfreetype6
+Use 'sudo apt autoremove' to remove it.
+The following additional packages will be installed:
+  libssl-doc
+The following NEW packages will be installed:
+  libssl-dev libssl-doc
+0 upgraded, 2 newly installed, 0 to remove and 3 not upgraded.
+Need to get 2629 kB of archives.
+After this operation, 11.5 MB of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+Get:1 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libssl-dev amd64 1.1.0g-2ubuntu4.3 [1374 kB]
+Get:2 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libssl-doc all 1.1.0g-2ubuntu4.3 [1255 kB]
+Fetched 2629 kB in 12s (214 kB/s)
+Selecting previously unselected package libssl-dev:amd64.
+(Reading database ... 28563 files and directories currently installed.)
+Preparing to unpack .../libssl-dev_1.1.0g-2ubuntu4.3_amd64.deb ...
+Unpacking libssl-dev:amd64 (1.1.0g-2ubuntu4.3) ...
+Selecting previously unselected package libssl-doc.
+Preparing to unpack .../libssl-doc_1.1.0g-2ubuntu4.3_all.deb ...
+Unpacking libssl-doc (1.1.0g-2ubuntu4.3) ...
+Setting up libssl-dev:amd64 (1.1.0g-2ubuntu4.3) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Setting up libssl-doc (1.1.0g-2ubuntu4.3) ...
+teabean@LAPTOP-KHTL51SP:~$ git --version
+git version 2.17.1
+teabean@LAPTOP-KHTL51SP:~$ git -v
+unknown option: -v
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+teabean@LAPTOP-KHTL51SP:~$
