@@ -3,4 +3,16 @@ Note: The command prompt must be run as an administrator
 Step 1: Enable the subsystem within windows (TODO: Paraphrased, rewrite)
 Step 2: Download Ubuntu from the Windows store (TODO: Paraphrased, rewrite)
 Step 3: Run Ubuntu, perform first-time configuration (TODO: Paraphrased, rewrite)
-Step 4: Update/Upgrade (TODO: Paraphrased, rewrite)
+
+STEP 4: Update/Upgrade
+Update and clean the Linux installation using the commands:
+
+$ sudo apt-get update
+  - This will prompt the dpkg package manager to search for updateable program packages (patches)
+
+$ sudo apt-get upgrade
+  - This prompts the dpkg package manager to acquire and install the updates located from the previous step
+  
+The command may be combined by using the following:
+
+$ sudo apt-get update && sudo apt-get upgrade -y
