@@ -1,0 +1,19 @@
+To kill a process:
+
+METHOD 1: By Process ID (PID)
+Use the command
+
+$ kill <PID>
+
+METHOD 2: By Process Name
+Use the command
+
+$ killall <ProcessName>
+
+Additional research:
+Kill Signals
+In format:
+
+$ kill <SIGNAL> <PID>
+
+Zombies
