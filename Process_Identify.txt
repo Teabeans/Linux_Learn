@@ -1,0 +1,28 @@
+To identify running processes:
+
+Method 1 : 'top'
+Use the command:
+
+$ top
+
+This displays all running processes.
+Use Ctrl+C to exit.
+
+Method 2 : 'ps'
+Use the command:
+
+$ ps aux | grep <ProcessName>
+
+This runs the Process Snapshot (PS) function with the options:
+  a - (All) - Shows processes for all users
+  u - (User/Owner) - Shows the owner of the process
+  x - (eXternal) - Shows processes not attached to the terminal
+
+The output is then piped to 'grep', which will truncate output only to lines matching a pattern.
+
+ie.
+
+root@kali:~# ps | grep bash
+ 2470 pts/0    00:00:00 bash
+
+In either case, you may wish to record the process number for future reference.
