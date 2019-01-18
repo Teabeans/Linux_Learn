@@ -1,0 +1,3 @@
+STEP 1 - Download the OpenSSL library into Linux
+
+$ sudo apt-get install libssl-dev
