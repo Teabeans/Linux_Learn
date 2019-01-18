@@ -4,7 +4,7 @@ $ g++ -std=c++11 *.cpp <OptionalOutputName>
 
 If G++ is not installed, it may be installed using the command
 
-$ sudo apt-get install g++
+$ sudo apt install g++
 
 After installation, check for updates and upgrades with the commands
 
