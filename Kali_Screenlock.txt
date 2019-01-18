@@ -1,0 +1,5 @@
+To disable or alter screenlocking:
+
+$ gnome-control-center
+
+After the Control Center window opens, go to the 'Privacy' tab
