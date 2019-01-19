@@ -1,0 +1,9 @@
+To install Valgrind:
+
+$ sudo apt-get install valgrind
+
+To run Valgrind:
+
+$ valgrind --leak-check=full --show-leak-kinds=all ./<ProgramName>
+
+To interpret Valgrind:
