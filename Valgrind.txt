@@ -36,7 +36,32 @@ $ valgrind --leak-check=full --show-leak-kinds=all ./<ProgramName>
 Interpreting Valgrind Results
 ================================================================================
 
-<TODO>
+Sample output:
+
+$ valgrind --leak-check=full --show-leak-kinds=all ./run.out
+==4793== Memcheck, a memory error detector
+==4793== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4793== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4793== Command: ./run.out
+==4793==
+==4793== error calling PR_SET_PTRACER, vgdb might block
+SHA2 Encryption starting
+Hello, World!
+==4793==
+==4793== HEAP SUMMARY:
+==4793==     in use at exit: 0 bytes in 0 blocks
+==4793==   total heap usage: 3 allocs, 3 frees, 76,829 bytes allocated
+==4793==
+==4793== All heap blocks were freed -- no leaks are possible
+==4793==
+==4793== For counts of detected and suppressed errors, rerun with: -v
+==4793== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+From above:
+  - ./run.out - The executable to run within Valgrind
+  - ==4793== - The Process ID (PID) generated for/by run.out
+  - SHA2 Encryption starting / Hello, World! - Program outputs
+  - HEAP SUMMARY: - Analysis of heap use. "Definitely Lost" denotes a memory leak
 
 ================================================================================
 APPENDIX A - CONTENTS OF VALGRIND HELP FILE
