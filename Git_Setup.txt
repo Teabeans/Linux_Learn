@@ -25,16 +25,55 @@ STEP 1 - INSTALL GIT TO UBUNTU LINUX VIA THE COMMAND LINE INTERFACE
 
 From the CLI, enter the command:
 
-$ git --version
+  $ git --version
 
 If Git is already installed, you will see the version report. As of 2019.01.18, this was:
 
-git version 2.17.1
+  git version 2.17.1
 
-If Git is not installed, the command will not be recognized. In this case, you may install Git using the command:
+If Git is not installed, the command will not be recognized. In this case, you should update/upgrade your system prior to attemping to install Git using the commands:
 
+  $ sudo apt-get update
+  $ sudo apt-get upgrade
 
+These may be combined to the single command
 
+  $ sudo apt-get update && sudo apt-get upgrade -y
+
+When the update/upgrade is complete, install Git with the command:
+
+  $ sudo apt-get install git
+
+Perform the update/upgrade again to ensure that Git's latest version is installed.
+
+  $ sudo apt-get update
+  $ sudo apt-get upgrade
+  
+Lastly, validate the installed version number again with
+
+  $ git --version
+
+Note: Other builds of Linux may have variations to these commands, but the general idea is the same:
+  - Refresh your system
+  - Use a package manager to locate and install Git
+  - Clean the installation and acquire any relevant patches.
+
+At this point, you have effectively installed the Git client to your Linux environment. From here, you may pull other repositories, generate changes, create branches, and push these changes back to the repo. You do not, however, have a version control system for yourself, and your own files remain subject to loss or damage based on the health of your machine.
+
+To generate an online repository, proceed to the next step.
+
+================================================================================
+STEP 2 - REGISTER A GITHUB ACCOUNT
+================================================================================
+
+While multiple services for hosting Git repositories exist, GitHub is one of the more common and well-known ones. The following steps detail the process of registering a GitHub account and hosting a repository therein.
+
+<TODO> Registration steps
+1) Click the 'Sign Up' button in the upper right corner or by filling in the requested information fields and clicking the large green 'Sign Up' button.
+2) Go to www.github.com/<YourUsername>
+
+ie. www.github.com/teabeans
+Note: The address is not case sensitive
 
 -- APPENDIX A -- Contents of Git's help file
 $ git --help
