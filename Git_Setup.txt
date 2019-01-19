@@ -68,12 +68,19 @@ STEP 2 - REGISTER A GITHUB ACCOUNT
 
 While multiple services for hosting Git repositories exist, GitHub is one of the more common and well-known ones. The following steps detail the process of registering a GitHub account and hosting a repository therein.
 
-<TODO> Registration steps
-1) Click the 'Sign Up' button in the upper right corner or by filling in the requested information fields and clicking the large green 'Sign Up' button.
-2) Go to www.github.com/<YourUsername>
+Click the 'Sign Up' button in the upper right corner or by filling in the requested information fields and clicking the large green 'Sign Up' button.
+
+Note: Retain your username and password for future use. These will be necessary when committing from your Linux environment.
+Note: For now, use a password you will be able to type. In the event that you use a highly secure password or a password manager and are unable to recall or type it from the Linux prompt, it is possible to set up a Personal Access Token (PAT) which handles authentication automatically. This is detailed in <TODO>.
+
+Go to www.github.com/<YourUsername>
 
 ie. www.github.com/teabeans
 Note: The address is not case sensitive
+
+This is your dashboard, displaying your code repositories and other users with whom you are connected.
+
+This concludes your registration process. You may now host Git repositories to this space.
 
 -- APPENDIX A -- Contents of Git's help file
 $ git --help
