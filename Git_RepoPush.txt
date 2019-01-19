@@ -1,0 +1,101 @@
+To create a Git repository:
+
+Overview:
+-- Git_Setup.txt --
+1) Install Git to Ubuntu Linux via the command line interface
+2) Register a GitHub account
+
+-- Git_RepoCreate.txt --
+3) Create a new repository from Linux
+4) Create a new file in the repository
+5) Commit and push the changes to GitHub
+
+-- Git_RepoPull.txt --
+6) Create a new repository in GitHub
+7) Create a new file in GitHub
+8) Pull the repository and file from GitHub to the local machine
+
+-- Git_RepoPush.txt --
+9) Affect a change to the repository
+10) Push the change back to the repository
+
+================================================================================
+STEP 9 - AFFECT A CHANGE TO THE REPOSITORY
+================================================================================
+
+
+================================================================================
+STEP 10 - PUSH THE CHANGE BACK TO THE REPOSITORY
+================================================================================
+
+If you have created new files that are not tracked within the repository (and wish for them to be placed under version control), you may add them to the repository with the command:
+
+$ git add .
+
+Once the changed files have been saved locally, you can commit them using the command:
+
+$ git commit -a
+
+This commits the changes to the branch. You will be prompted to provide a description of the commit.
+Note: If you have not configured your local installation of Git with your user.email and user.name, you will be prompted to do so.
+You can change these configuration options with the commands:
+
+$ git config --global user.email "<YourEmailAddress>"
+$ git config --global user.name "<YourUserName>"
+
+As you are a sole developer at this point, you may push the commit back to the repository at any time with the command:
+
+$ git push
+
+Provide your GitHub username and password to complete the update.
+Check the GitHub browser interface to ensure that the changes were saved properly.
+
+================================================================================
+STEP 5 - COMMIT AND PUSH THE CHANGES TO GITHUB
+================================================================================
+
+
+-- APPENDIX A -- Contents of Git's help file
+$ git --help
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
