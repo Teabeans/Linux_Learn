@@ -1,0 +1,45 @@
+To generate a shell compilation script:
+
+$ nano run.sh
+
+Enter the commands you wish to execute:
+
+g++ -std=c++11 *.cpp -o run.out
+valgrind --leak-check=full --show-leak-kinds=all ./run.out
+
+Save the buffer. The file 'run.sh' now includes two instructions; one to compile a program and one to execute it.
+
+Next, modify the script's permissions to allow it to run and execute with the command:
+
+$ chmod u+x run.sh
+
+Additional commentary may be output from the script using the 'echo' command.
+
+Following is a sample script which provided the user instruction on its use and compiled select .cpp files along with instructions for how to the user could execute the program afterwards:
+  
+echo ""
+echo "Begin <script> - 0_compile.sh"
+echo "  |--To change permissions: $ chmod u+x 0_compile.sh"
+echo "  |--To run: $ ./0_compile.sh"
+echo "  |--Compiling 'UdpRelay' from:"
+echo "  |  |--tlum_UdpRelay.cpp"
+echo "  |  |--tlum_UdpMulticast.cpp"
+echo "  |  |--tlum_Socket.cpp"
+echo "  |  |--tlum_driver.cpp"
+echo "  |  |--tlum_iPaddy.cpp"
+echo "  |  |--tlum_UdpMsg.cpp"
+echo "  |  |"
+echo "  |  |--Using"
+echo "  |     |-- -o UdpRelay"
+echo "  |     |-- -pthread"
+echo "  |     |-- --std=c++11"
+g++ --std=c++11 -pthread tlum_UdpRelay.cpp tlum_UdpMulticast.cpp tlum_Socket.cpp tlum_driver.cpp tlum_iPaddy.cpp tlum_UdpMsg.cpp -o UdpRelay
+echo "  |"
+echo "  |--To run: $ ./UdpRelay <IP ADDRESS>:<PORT>"
+echo "  |  |--Where <IP ADDRESS> is in format '255.255.255.255'"
+echo "  |  |  |--And within range '224.0.0.0' to '239.255.255.255'"
+echo "  |  |--Where <PORT> is in format '12345'"
+echo "  |     |--And within range 49152 up to 65535"
+echo "  |"
+echo "  |--End <script> - 0_compile.sh"
+echo ""
