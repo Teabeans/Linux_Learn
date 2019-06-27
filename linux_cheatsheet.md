@@ -16,7 +16,7 @@ Delete from cursor to end of line. If executed from start of line, clears the li
 
 `[Ctrl + W]`<br/>
 Clear from prior to cursor location to start of current word. If executed from after a word, deletes the word.<br/>
-###### > _e.g._
+> ###### _e.g._
 ```
 abcdefg hijkLmnop >> [Ctrl+W] >> abcdefg Lmnop
             ^                ^
@@ -77,7 +77,7 @@ USER MODification (USERMOD) - Modify a user account. For more details, see `$ ma
 
 `$ chmod <ARG1> <ARG2>`<br/>
 CHange MODe (CHMOD) - Changes a file or directory mode (permission) bits.<br/>
-e.g. `chmod u+x myScript.sh` - Sets the permission bits of `myScript.sh` to execute for the owner
+> ###### e.g. `chmod u+x myScript.sh` - Sets the permission bits of `myScript.sh` to execute for the owner
 
 `$ ls -l <ARG1>`<br/>
 LiSt (LS) folder directory as a List (-L). `ARG1` defines the file name to match. Displays permission bits.
@@ -94,9 +94,9 @@ SUperuser DO (SUDO) - Elevates the user to superuser privileges for the purposes
 
 `$ sudo apt-get intall <ARG1>`<br/>
 
-e.g.
-* $ sudo apt-get install emacs
-* $ sudo apt-get install git
+> ###### e.g.
+> * $ sudo apt-get install emacs
+> * $ sudo apt-get install git
 
 `$ <ARG1> | <ARG2> `<br/>
 Pipe (`|`) - Connects the output of `ARG1` to the input of `ARG2`
@@ -150,8 +150,8 @@ TODO
 
 `$ rm <ARG1>`<br/>
 ReMove (RM) - Remove files or directories
-###### > **NOTE:** Remove does not remove directories. Use the `-r` option to do so.
+> ###### **NOTE:** Remove does not remove directories. Use the `-r` option to do so.
 
 `$ rm -rf <ARG1>'<br/>
 Removes all folders recursively (`-r`) and without prompting (forced `-f`)
-###### > **CAUTION:** Use extreme care when executing a recursive deletion.
+> ###### **CAUTION:** Use extreme care when executing a recursive deletion.
