@@ -57,6 +57,21 @@ Print Working Directory (PWD) - Prints current directory
 
 ## ACCESS + PERMISSIONS<br/>
 
+`$ whoami`<br/>
+Prints the effective user ID.
+
+`$ groups`<br/>
+Prints the groups the effective user ID is a member of.
+
+`$ hostname`<br/>
+Prints the local hostname. Same as content of the file at `/etc/hostname`
+
+`$ passwd`<br/>
+Set the password for the current user ID
+
+`$ sudo passwd root`<br/>
+Set the password for the root user (obviously, use caution and manage this password well)
+
 ## MAINTENANCE + UPKEEP<br/>
 
 `$ sudo <ARG1>`<br/>
@@ -107,6 +122,12 @@ Changes the directory down two levels, then up to ARG1
 `$ emacs <ARG1>`
 
 `
+
+
+
+## NETWORK<br/>
+`$ dnsdomainname`<br/>
+Show the system's DNS domain name
 
 # Welcome to StackEdit!
 
