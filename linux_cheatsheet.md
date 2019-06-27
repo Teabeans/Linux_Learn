@@ -1,11 +1,28 @@
 `[tab]`<br/>
 Autocomplete - Attempts to autocomplete the line with the likely name of files or directories.
 
+`[Ctrl + L/R Arrows]`<br/>
+Jump cursor L/R by word, rather than character
+
+`[Ctrl + A]'</br>
+Jump to start of line, often coupled with [Ctrl + K] to clear the line
+
+`[Ctrl + W]`</br>
+Clear from prior to cursor location to start of current word. If executed from after a word, deletes the word.
+e.g. - abcdefg hijk__**l**__mnop >> abcdefg lmnop
+
+`[Alt + Shift + 3]`</br>
+
+
 `man <ARG1>`<br/>
 MANual (MAN)- an interface to the on-line reference manuals. Displays usage manual for the command `ARG1`
 
 `alias`<br/>
 Lists all aliases in the environment
+
+`history <ARG1>`<br/>
+List the user's command history. `ARG1` optionally lists the latest `ARG1` commands
+
 
 `dpkg --get-selections`<br/>
 List all installed packages (programs)
@@ -56,7 +73,11 @@ Changes the directory down two levels
 `cd ../../<ARG1>`<br/>
 Changes the directory down two levels, then up to ARG1
 
+`nano <ARG1>`
 
+`emacs <ARG1>`
+
+`
 
 # Welcome to StackEdit!
 
