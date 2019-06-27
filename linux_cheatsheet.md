@@ -19,7 +19,8 @@ Clear from prior to cursor location to start of current word. If executed from a
 e.g.
 ```
 abcdefg hijkLmnop >> abcdefg Lmnop
-            ^                ^```
+            ^                ^
+```
 
 `[Alt + Shift + 3]`<br/>
 Does not execute the current command, but enters it as a comment into history.
