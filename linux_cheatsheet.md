@@ -13,6 +13,16 @@ List all installed packages (programs)
 `sudo <ARG1>`<br/>
 SUperuser DO (SUDO) - Elevates the user to superuser privileges for the purposes of executing ARG1.
 
+`sudo apt-get update`<br/>
+
+`sudo apt-get upgrade`<br/>
+
+`sudo apt-get intall <ARG1>`<br/>
+
+e.g.
+* $ sudo apt-get install emacs
+* $ sudo apt-get install git
+
 `<ARG1> | <ARG2> `<br/>
 Pipe (`|`) - Connects the output of `ARG1` to the input of `ARG2`
 
@@ -45,6 +55,8 @@ Changes the directory down two levels
 
 `cd ../../<ARG1>`<br/>
 Changes the directory down two levels, then up to ARG1
+
+
 
 # Welcome to StackEdit!
 
