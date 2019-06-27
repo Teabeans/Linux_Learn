@@ -6,7 +6,7 @@ Autocomplete - Attempts to autocomplete the line with the likely name of files o
 Jump cursor L/R by word, rather than character
 
 `[Ctrl + A]`<br/>
-Jump to start of line, often coupled with [Ctrl + K] to clear the line
+Jump to start of line, often coupled with `[Ctrl + K]` to clear the line
 
 `[Ctrl + E]`<br/>
 Jump to end of line.
