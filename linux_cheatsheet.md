@@ -72,6 +72,17 @@ Set the password for the current user ID
 `$ sudo passwd <ARG1>`<br/>
 Set the password for the user `ARG1` (obviously, use caution if `ARG1 == root` and manage this password well)
 
+`$ usermod`<br/>
+USER MODification (USERMOD) - Modify a user account. For more details, see `$ man usermod`
+
+`$ chmod <ARG1> <ARG2>`<br/>
+CHange MODe (CHMOD) - Changes a file or directory mode (permission) bits.<br/>
+e.g. `chmod u+x myScript.sh` - Sets the permission bits of `myScript.sh` to execute for the owner
+
+`$ ls -l <ARG1>`<br/>
+LiSt (LS) folder directory as a List (-L). `ARG1` defines the file name to match. Displays permission bits.
+
+
 ## MAINTENANCE + UPKEEP<br/>
 
 `$ sudo <ARG1>`<br/>
