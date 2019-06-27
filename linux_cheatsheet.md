@@ -16,7 +16,7 @@ Delete from cursor to end of line. If executed from start of line, clears the li
 
 `[Ctrl + W]`<br/>
 Clear from prior to cursor location to start of current word. If executed from after a word, deletes the word.<br/>
-> _e.g._
+> ###### _e.g._
 ```
 abcdefg hijkLmnop >> abcdefg Lmnop
             ^                ^
