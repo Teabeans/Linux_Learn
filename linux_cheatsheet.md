@@ -4,15 +4,21 @@ Autocomplete - Attempts to autocomplete the line with the likely name of files o
 `[Ctrl + L/R Arrows]`<br/>
 Jump cursor L/R by word, rather than character
 
-`[Ctrl + A]'</br>
+`[Ctrl + A]`</br>
 Jump to start of line, often coupled with [Ctrl + K] to clear the line
+
+`[Ctrl + K]`</br>
+Delete from cursor to end of line. If executed from start of line, clears the line.
 
 `[Ctrl + W]`</br>
 Clear from prior to cursor location to start of current word. If executed from after a word, deletes the word.
 e.g. - abcdefg hijk__**l**__mnop >> abcdefg lmnop
 
 `[Alt + Shift + 3]`</br>
+Does not execute the current command, but enters it as a comment into history.
 
+`[Ctrl + C]`</br>
+Cancel the current line without committing it to history.
 
 `man <ARG1>`<br/>
 MANual (MAN)- an interface to the on-line reference manuals. Displays usage manual for the command `ARG1`
