@@ -16,7 +16,7 @@ Delete from cursor to end of line. If executed from start of line, clears the li
 
 `[Ctrl + W]`<br/>
 Clear from prior to cursor location to start of current word. If executed from after a word, deletes the word.<br/>
-e.g. - abcdefg hijk**__L__**mnop >> abcdefg Lmnop
+e.g. - abcdefg hijk__L__mnop >> abcdefg Lmnop
 
 `[Alt + Shift + 3]`<br/>
 Does not execute the current command, but enters it as a comment into history.
