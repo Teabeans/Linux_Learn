@@ -1,3 +1,4 @@
+##NAVIGATION + ORIENTATION
 `[tab]`<br/>
 Autocomplete - Attempts to autocomplete the line with the likely name of files or directories.
 
@@ -29,9 +30,13 @@ Lists all aliases in the environment
 `history <ARG1>`<br/>
 List the user's command history. `ARG1` optionally lists the latest `ARG1` commands
 
-
 `dpkg --get-selections`<br/>
 List all installed packages (programs)
+
+`pwd`<br/>
+Print Working Directory (PWD) - Prints current directory
+
+##MAINTENANCE + UPKEEP
 
 `sudo <ARG1>`<br/>
 SUperuser DO (SUDO) - Elevates the user to superuser privileges for the purposes of executing ARG1.
@@ -63,9 +68,6 @@ For more information, see `man dir_colors`
 
 `cd`<br/>
 Change Directory (CD) - Changes the working directory (does nothing without arguments)
-
-`pwd`<br/>
-Print Working Directory (PWD) - Prints current directory
 
 `cd /<DIR1>/<DIR2>`<br/>
 Change directory to `/DIR1/DIR2`
