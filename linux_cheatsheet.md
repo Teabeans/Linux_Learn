@@ -1,22 +1,22 @@
-`[tab]`
+`[tab]`<br/>
 Autocomplete - Attempts to autocomplete the line with the likely name of files or directories.
 
-`man <ARG1>`
+`man <ARG1>`<br/>
 MANual (MAN)- an interface to the on-line reference manuals. Displays usage manual for the command `ARG1`
 
-`alias`
+`alias`<br/>
 Lists all aliases in the environment
 
-`dpkg --get-selections`
+`dpkg --get-selections`<br/>
 List all installed packages (programs)
 
-`sudo <ARG1>`
+`sudo <ARG1>`<br/>
 SUperuser DO (SUDO) - Elevates the user to superuser privileges for the purposes of executing ARG1.
 
-`<ARG1> | <ARG2> `
+`<ARG1> | <ARG2> `<br/><br/>
 Pipe (`|`) - Connects the output of `ARG1` to the input of `ARG2`
 
-`ls`
+`ls`<br/>
 LiSt (LS) directory contents - Prints directory contents. Color encodings as follows:
 1. Blue - Directory
 2. Green - Executable or recognized data file
@@ -28,22 +28,22 @@ LiSt (LS) directory contents - Prints directory contents. Color encodings as fol
 
 For more information, see `man dir_colors`
 
-`cd`
+`cd`<br/>
 Change Directory (CD) - Changes the working directory (does nothing without arguments)
 
-`pwd`
+`pwd`<br/>
 Print Working Directory (PWD) - Prints current directory
 
-`cd /<DIR1>/<DIR2>`
+`cd /<DIR1>/<DIR2>`<br/>
 Change directory to `/DIR1/DIR2`
 
-`cd ..`
+`cd ..`<br/>
 Changes the directory down one level
 
-`cd ../..`
+`cd ../..`<br/>
 Changes the directory down two levels
 
-`cd ../../<ARG1>`
+`cd ../../<ARG1>`<br/>
 Changes the directory down two levels, then up to ARG1
 
 # Welcome to StackEdit!
