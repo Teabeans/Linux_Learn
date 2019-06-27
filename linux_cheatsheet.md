@@ -150,8 +150,8 @@ TODO
 
 `$ rm <ARG1>`<br/>
 ReMove (RM) - Remove files or directories
-> **NOTE:** Remove does not remove directories. Use the `-r` option to do so.
+****** > **NOTE:** Remove does not remove directories. Use the `-r` option to do so.
 
 `$ rm -rf <ARG1>'<br/>
 Removes all folders recursively (`-r`) and without prompting (forced `-f`)
-> **CAUTION:** Use extreme care when executing a recursive deletion.
+****** > **CAUTION:** Use extreme care when executing a recursive deletion.
