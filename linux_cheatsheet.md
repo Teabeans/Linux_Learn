@@ -1,39 +1,39 @@
-## NAVIGATION + ORIENTATION</br>
-`[tab]`</br>
+## NAVIGATION + ORIENTATION<br/>
+`[tab]`<br/>
 Autocomplete - Attempts to autocomplete the line with the likely name of files or directories.
 
-`[Ctrl + L/R Arrows]`</br>
+`[Ctrl + L/R Arrows]`<br/>
 Jump cursor L/R by word, rather than character
 
-`[Ctrl + A]`</br>
+`[Ctrl + A]`<br/>
 Jump to start of line, often coupled with [Ctrl + K] to clear the line
 
-`[Ctrl + E]`</br>
+`[Ctrl + E]`<br/>
 Jump to end of line.
 
-`[Ctrl + K]`</br>
+`[Ctrl + K]`<br/>
 Delete from cursor to end of line. If executed from start of line, clears the line.
 
-`[Ctrl + W]`</br>
+`[Ctrl + W]`<br/>
 Clear from prior to cursor location to start of current word. If executed from after a word, deletes the word.
 e.g. - abcdefg hijk__**l**__mnop >> abcdefg lmnop
 
-`[Alt + Shift + 3]`</br>
+`[Alt + Shift + 3]`<br/>
 Does not execute the current command, but enters it as a comment into history.
 
-`[Ctrl + C]`</br>
+`[Ctrl + C]`<br/>
 Cancel the current line without committing it to history.
 
-`[Ctrl + XX]`</br>
+`[Ctrl + XX]`<br/>
 Generate a second cursor on the line (default at start of line). Toggle between using `[Ctrl + XX]`.
 
-`[Ctrl + L]`</br>
+`[Ctrl + L]`<br/>
 Clear the prompt without a commit to history.
 
 `$ clear`
 Clear the prompt **with** a commit to history.
 
-`[Ctrl + R]`</br>
+`[Ctrl + R]`<br/>
 Search the command history (type in the search term). Goes in reverse order and by specificity
 
 `$ man <ARG1>`<br/>
@@ -51,9 +51,9 @@ List all installed packages (programs)
 `$ pwd`<br/>
 Print Working Directory (PWD) - Prints current directory
 
-## ACCESS + PERMISSIONS</br>
+## ACCESS + PERMISSIONS<br/>
 
-## MAINTENANCE + UPKEEP</br>
+## MAINTENANCE + UPKEEP<br/>
 
 `$ sudo <ARG1>`<br/>
 SUperuser DO (SUDO) - Elevates the user to superuser privileges for the purposes of executing ARG1.
