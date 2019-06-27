@@ -131,6 +131,10 @@ Changes the directory down two levels, then up to ARG1
 `$ <ARG1> --version`<br/>
 Generally, output the installed version of the `ARG1` package.
 
+`$ top`<br/>
+Display the process manager.
+> ###### **NOTE:** `top` contains multiple command line and interactive options. For more information, see `man top`.
+
 `$ nano <ARG1>`
 
 `$ emacs <ARG1>`
@@ -155,3 +159,6 @@ ReMove (RM) - Remove files or directories
 `$ rm -rf <ARG1>`<br/>
 Removes all folders recursively (`-r`) and without prompting (forced `-f`)
 > ###### **CAUTION:** Use extreme care when executing a recursive deletion.
+
+`mkdir <ARG1>`<br/>
+MaKe DIRectory (MKDIR) - Makes a new directory of name `ARG1` in the current working directory
