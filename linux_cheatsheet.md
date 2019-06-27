@@ -13,7 +13,7 @@ List all installed packages (programs)
 `sudo <ARG1>`<br/>
 SUperuser DO (SUDO) - Elevates the user to superuser privileges for the purposes of executing ARG1.
 
-`<ARG1> | <ARG2> `<br/><br/>
+`<ARG1> | <ARG2> `<br/>
 Pipe (`|`) - Connects the output of `ARG1` to the input of `ARG2`
 
 `ls`<br/>
