@@ -25,12 +25,16 @@ Does not execute the current command, but enters it as a comment into history.
 Cancel the current line without committing it to history.
 
 `[Ctrl + XX]`</br>
-Generate a second cursor on the line (default at start of line). Toggle between using `[Ctrl + XX]`
+Generate a second cursor on the line (default at start of line). Toggle between using `[Ctrl + XX]`.
 
 `[Ctrl + L]`</br>
-Clear the prompt without a commit to history
+Clear the prompt without a commit to history.
 
 `$ clear`
+Clear the prompt **with** a commit to history.
+
+`[Ctrl + R]`</br>
+Search the command history (type in the search term). Goes in reverse order and by specificity
 
 `$ man <ARG1>`<br/>
 MANual (MAN)- an interface to the on-line reference manuals. Displays usage manual for the command `ARG1`
