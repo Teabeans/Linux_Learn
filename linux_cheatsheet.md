@@ -8,6 +8,9 @@ Jump cursor L/R by word, rather than character
 `[Ctrl + A]`</br>
 Jump to start of line, often coupled with [Ctrl + K] to clear the line
 
+`[Ctrl + E]`</br>
+Jump to end of line.
+
 `[Ctrl + K]`</br>
 Delete from cursor to end of line. If executed from start of line, clears the line.
 
@@ -21,40 +24,48 @@ Does not execute the current command, but enters it as a comment into history.
 `[Ctrl + C]`</br>
 Cancel the current line without committing it to history.
 
-`man <ARG1>`<br/>
+`[Ctrl + XX]`</br>
+Generate a second cursor on the line (default at start of line). Toggle between using `[Ctrl + XX]`
+
+`[Ctrl + L]`</br>
+Clear the prompt without a commit to history
+
+`$ clear`
+
+`$ man <ARG1>`<br/>
 MANual (MAN)- an interface to the on-line reference manuals. Displays usage manual for the command `ARG1`
 
-`alias`<br/>
+`$ alias`<br/>
 Lists all aliases in the environment
 
-`history <ARG1>`<br/>
+`$ history <ARG1>`<br/>
 List the user's command history. `ARG1` optionally lists the latest `ARG1` commands
 
-`dpkg --get-selections`<br/>
+`$ dpkg --get-selections`<br/>
 List all installed packages (programs)
 
-`pwd`<br/>
+`$ pwd`<br/>
 Print Working Directory (PWD) - Prints current directory
 
 ## MAINTENANCE + UPKEEP<br/>
 
-`sudo <ARG1>`<br/>
+`$ sudo <ARG1>`<br/>
 SUperuser DO (SUDO) - Elevates the user to superuser privileges for the purposes of executing ARG1.
 
-`sudo apt-get update`<br/>
+`$ sudo apt-get update`<br/>
 
-`sudo apt-get upgrade`<br/>
+`$ sudo apt-get upgrade`<br/>
 
-`sudo apt-get intall <ARG1>`<br/>
+`$ sudo apt-get intall <ARG1>`<br/>
 
 e.g.
 * $ sudo apt-get install emacs
 * $ sudo apt-get install git
 
-`<ARG1> | <ARG2> `<br/>
+`$ <ARG1> | <ARG2> `<br/>
 Pipe (`|`) - Connects the output of `ARG1` to the input of `ARG2`
 
-`ls`<br/>
+`$ ls`<br/>
 LiSt (LS) directory contents - Prints directory contents. Color encodings as follows:
 1. Blue - Directory
 2. Green - Executable or recognized data file
@@ -66,24 +77,24 @@ LiSt (LS) directory contents - Prints directory contents. Color encodings as fol
 
 For more information, see `man dir_colors`
 
-`cd`<br/>
+`$ cd`<br/>
 Change Directory (CD) - Changes the working directory (does nothing without arguments)
 
-`cd /<DIR1>/<DIR2>`<br/>
+`$ cd /<DIR1>/<DIR2>`<br/>
 Change directory to `/DIR1/DIR2`
 
-`cd ..`<br/>
+`$ cd ..`<br/>
 Changes the directory down one level
 
-`cd ../..`<br/>
+`$ cd ../..`<br/>
 Changes the directory down two levels
 
-`cd ../../<ARG1>`<br/>
+`$ cd ../../<ARG1>`<br/>
 Changes the directory down two levels, then up to ARG1
 
-`nano <ARG1>`
+`$ nano <ARG1>`
 
-`emacs <ARG1>`
+`$ emacs <ARG1>`
 
 `
 
