@@ -69,8 +69,8 @@ Prints the local hostname. Same as content of the file at `/etc/hostname`
 `$ passwd`<br/>
 Set the password for the current user ID
 
-`$ sudo passwd root`<br/>
-Set the password for the root user (obviously, use caution and manage this password well)
+`$ sudo passwd <ARG1>`<br/>
+Set the password for the user `ARG1` (obviously, use caution if `ARG1 == root` and manage this password well)
 
 ## MAINTENANCE + UPKEEP<br/>
 
