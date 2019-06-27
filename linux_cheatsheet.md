@@ -34,7 +34,7 @@ Generate a second cursor on the line (default at start of line). Toggle between 
 `[Ctrl + L]`<br/>
 Clear the prompt without a commit to history.
 
-`$ clear`
+`$ clear`<br/>
 Clear the prompt **with** a commit to history.
 
 `[Ctrl + R]`<br/>
@@ -77,7 +77,7 @@ USER MODification (USERMOD) - Modify a user account. For more details, see `$ ma
 
 `$ chmod <ARG1> <ARG2>`<br/>
 CHange MODe (CHMOD) - Changes a file or directory mode (permission) bits.<br/>
-> ###### e.g. `chmod u+x myScript.sh` - Sets the permission bits of `myScript.sh` to execute for the owner
+> ###### _e.g._ - `chmod u+x myScript.sh` - Sets the permission bits of `myScript.sh` to execute for the owner
 
 `$ ls -l <ARG1>`<br/>
 LiSt (LS) folder directory as a List (-L). `ARG1` defines the file name to match. Displays permission bits.
@@ -94,7 +94,7 @@ SUperuser DO (SUDO) - Elevates the user to superuser privileges for the purposes
 
 `$ sudo apt-get intall <ARG1>`<br/>
 
-> ###### e.g.
+> ###### _e.g._
 > * $ sudo apt-get install emacs
 > * $ sudo apt-get install git
 
