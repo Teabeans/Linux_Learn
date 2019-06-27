@@ -1,8 +1,8 @@
-## NAVIGATION + ORIENTATION<br/>
-`[tab]`<br/>
+## NAVIGATION + ORIENTATION</br>
+`[tab]`</br>
 Autocomplete - Attempts to autocomplete the line with the likely name of files or directories.
 
-`[Ctrl + L/R Arrows]`<br/>
+`[Ctrl + L/R Arrows]`</br>
 Jump cursor L/R by word, rather than character
 
 `[Ctrl + A]`</br>
@@ -51,7 +51,9 @@ List all installed packages (programs)
 `$ pwd`<br/>
 Print Working Directory (PWD) - Prints current directory
 
-## MAINTENANCE + UPKEEP<br/>
+## ACCESS + PERMISSIONS</br>
+
+## MAINTENANCE + UPKEEP</br>
 
 `$ sudo <ARG1>`<br/>
 SUperuser DO (SUDO) - Elevates the user to superuser privileges for the purposes of executing ARG1.
