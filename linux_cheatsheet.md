@@ -82,6 +82,8 @@ CHange MODe (CHMOD) - Changes a file or directory mode (permission) bits. <br/>
 > The **G**roup may **R**ead and e**X**ecute <br/>
 > **O**thers may **R**ead <br/>
 
+> **NOTE:** The assignment operator (`=`) may be replaced by either `+` or `-`, wherein the corresponding permissions will be either added or removed from `theFile`.
+
 > **NOTE:** Permissions may also be set using octal notation, which consists of (3) digits in range 0 to 7. Each digit is a sum of the values 4, 2, 1, and 0, which correspond to permissions as follows:
 > - (4) == `READ`
 > - (2) == `WRITE`
@@ -100,6 +102,8 @@ CHange MODe (CHMOD) - Changes a file or directory mode (permission) bits. <br/>
 [1][0][0] == 4
 [1][1][1] == 7
 ```
+
+
 
 `$ ls -l <ARG1>`<br/>
 LiSt (LS) folder directory as a List (-L). `ARG1` defines the file name to match. Displays permission bits.
