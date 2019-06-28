@@ -83,11 +83,11 @@ CHange MODe (CHMOD) - Changes a file or directory mode (permission) bits. <br/>
 > **O**thers may **R**ead <br/>
 
 > **NOTE:** Permissions may also be set using octal notation, which consists of (3) digits in range 0 to 7. Each digit is a sum of the values 4, 2, 1, and 0, which correspond to permissions as follows:
-> * (4) == `READ`
-> * (2) == `WRITE`
-> * (1) == `EXECUTE`
-> * (0) == `NO PERMISSION`
-<a/>
+> - (4) == `READ`
+> - (2) == `WRITE`
+> - (1) == `EXECUTE`
+> - (0) == `NO PERMISSION`
+>
 > The (3) digits represent (User)(Group)(Other) permissions, with the prior `chmod` example being represented as follows:
 > `chmod 754 theFile`
 > **NOTE:** Under the hood, these values are encapsulated by 3 bits:
