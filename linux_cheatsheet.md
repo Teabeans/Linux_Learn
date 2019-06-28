@@ -86,7 +86,7 @@ CHange MODe (CHMOD) - Changes a file or directory mode (permission) bits.<br/>
 > * (4) == `READ`
 > * (2) == `WRITE`
 > * (1) == `EXECUTE`
-> * (0) == `NO PERMISSION`
+> * (0) == `NO PERMISSION`<br/>
 > The (3) digits represent (User)(Group)(Other) permissions, with the prior `chmod` example being represented as follows:
 > `chmod 754 theFile`
 
