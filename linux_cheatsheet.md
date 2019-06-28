@@ -76,11 +76,11 @@ Set the password for the user `ARG1` (obviously, use caution if `ARG1 == root` a
 USER MODification (USERMOD) - Modify a user account. For more details, see `$ man usermod`
 
 `$ chmod <ARG1> <ARG2>`<br/>
-CHange MODe (CHMOD) - Changes a file or directory mode (permission) bits.<br/>
-> _e.g._ - `chmod u=rwx,g=rx,o=r theFile`<br/>
-> The **U**ser may **R**ead, **W**rite, and e**X**ecute
-> The **G**roup may **R**ead and e**X**ecute
-> **O**thers may **R**ead
+CHange MODe (CHMOD) - Changes a file or directory mode (permission) bits. <br/>
+> _e.g._ - `chmod u=rwx,g=rx,o=r theFile` <br/>
+> The **U**ser may **R**ead, **W**rite, and e**X**ecute <br/>
+> The **G**roup may **R**ead and e**X**ecute <br/>
+> **O**thers may **R**ead <br/>
 
 > **NOTE:** Permissions may also be set using octal notation, which consists of (3) digits in range 0 to 7. Each digit is a sum of the values 4, 2, 1, and 0, which correspond to permissions as follows:
 > * (4) == `READ`
