@@ -91,11 +91,14 @@ CHange MODe (CHMOD) - Changes a file or directory mode (permission) bits. <br/>
 > The (3) digits represent (User)(Group)(Other) permissions, with the prior `chmod` example being represented as follows:
 > `chmod 754 theFile`
 > **NOTE:** Under the hood, these values are encapsulated by 3 bits:
-> `[0][0][0] == 0
-> [0][0][1] == 1
-> [0][1][0] == 2
-> [1][0][0] == 4
-> [1][1][1] == 7`
+```
+ U  G  O
+[0][0][0] == 0
+[0][0][1] == 1
+[0][1][0] == 2
+[1][0][0] == 4
+[1][1][1] == 7
+```
 
 
 `$ ls -l <ARG1>`<br/>
