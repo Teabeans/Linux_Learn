@@ -19,7 +19,7 @@ Clear from prior to cursor location to start of current word. If executed from a
 > _e.g._
 ```
 abcdefg hijkLmnop >> [Ctrl+W] >> abcdefg Lmnop
-            ^                ^
+            ^                            ^
 ```
 
 `[Alt + Shift + 3]`<br/>
