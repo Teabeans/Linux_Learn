@@ -77,7 +77,8 @@ USER MODification (USERMOD) - Modify a user account. For more details, see `$ ma
 
 `$ chmod <ARG1> <ARG2>`<br/>
 CHange MODe (CHMOD) - Changes a file or directory mode (permission) bits.<br/>
-> ###### _e.g._ - `chmod u+x myScript.sh` - Sets the permission bits of `myScript.sh` to execute for the owner
+> ###### _e.g._ - `chmod u=rwx,g=rx,o=r theFile`
+> ###### The **U**ser may **R**ead, **W**rite, and e**X**ecute
 
 `$ ls -l <ARG1>`<br/>
 LiSt (LS) folder directory as a List (-L). `ARG1` defines the file name to match. Displays permission bits.
